@@ -1,0 +1,10 @@
+import qrcode
+
+# Provide the link and generate the QR code
+insta_link = "https://www.instagram.com/riseandachieve2025"
+img = qrcode.make(insta_link)
+
+# Save the QR code
+img.save(r"C:\Users\HP\OneDrive\Desktop\my_instagram_qrcode.png")
+
+print("QR code generated and saved to your local storage.")
